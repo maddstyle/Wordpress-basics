@@ -1,0 +1,170 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "oswald";
+}
+
+p,
+li {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #231f20;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+#navigation {
+  float: right;
+  margin-top: 18px;
+}
+
+#navigation a {
+  font-family: "oswald";
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+}
+
+#navigation a:hover {
+  color: #d4c2a9;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.wrap {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#section-one {
+  text-align: center;
+}
+
+#section-one img {
+  width: 800px;
+  padding: 30px 0;
+}
+
+#section-one nav a {
+  font-family: "oswald";
+  font-size: 24px;
+  text-decoration: none;
+  color: #335e3b;
+  padding: 20px;
+}
+
+#section-one a:hover {
+  color: #d4c2a9;
+}
+
+#section-one h1 {
+  font-size: 50px;
+}
+
+#section-two {
+  padding: 50px;
+  background: url('../images/ComputerBackground.jpg') no-repeat;
+}
+
+#section-two .wrap {
+  color: #ccc;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1%;
+  padding: 20px 40px;
+  width: 720px;
+}
+
+#section-two .wrap a {
+  color: #ccc;
+}
+
+#section-three {
+	padding: 30px;
+}
+
+#section-three .wrap {
+  overflow: auto;
+}
+
+#section-three .wrap #img {
+  width: 48%;
+	float: left;
+	padding-right: 4%;
+}
+
+#section-three .wrap #img img {
+	width: 100%;
+}
+
+#section-three .wrap #text {
+	width: 48%;
+	float: left;
+}
+
+#section-three h2 {
+	margin-top: 0;
+}
+
+footer {
+  background: #335e3b;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.logo .footer {
+  float: none;
+}
+
+#about-section-two {
+	background: url('../images/GoldFoil.jpg') no-repeat;
+	padding: 30px;
+}
+
+#about-section-two .wrap {
+	overflow: auto;
+}
+
+#about-section-two .wrap #img {
+	width: 38%;
+	float: left;
+	padding-right: 4%;
+}
+
+#about-section-two .wrap #img img{
+	width: 100%;
+}
+
+#about-section-two .wrap #text {
+	width: 38%;
+  float: left;
+  padding: 20px 0 20px;
+}
+
+#about-section-two h2 {
+	margin-top: 0;
+}

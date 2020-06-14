@@ -4,143 +4,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles/style.css" type="text/css" />
+  <link rel="stylesheet" href="styles/normalized.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+
   <title>My page</title>
 </head>
 
 <body>
   <header>
     <nav>
-      <div>
+      <div class="logo">
         <a href="https://geekpack.co" target="_blank"><img src="images/geekpack.png" alt=""></a>
       </div>
-      <div>
+      <div id="navigation">
         <a href="">HOME</a>
-        <a href="">ABOUT</a>
+        <a href="about.html" target="#">ABOUT</a>
       </div>
     </nav>
   </header>
 
-  <div>
-    <h1>Learning to code is awesome!</h1>
-    <img src="images/DividerGold.png" alt="gold divider">
-    <nav>
-      <a href="#introduction">What is coding?</a>
-      <a href="#reasons">Reasons to Learn code</a>
-    </nav>
-  </div>
-
-  <div>
-    <h2>What is coding and how does it work?</h2>
-    <p>Writing code tell the computer what to do. for this 5 day challenge, we'll stick with basic web development
-      coding languages: HTML and CSS</p>
-    <a href="http://geekpack.co" target="_blank">Learn More</a>
-    <h3>HTML</h3>
-    <ul>
-      <li>Stands for HyperText Markup Language</li>
-      <li>Building block of the web</li>
-      <li>Provides the basic skeleton of all websites</li>
-      <li>It is all you can see, view and click on in your browser</li>
-    </ul>
-    <h3>CSS</h3>
-    <p>CSS stands for Cascading Style Sheets and is all about <b>STYLE</b></p>
-  </div>
-
-  <div>
-    <div>
-      <img src="images/GoldBalls.jpg" alt="gold balls">
+  <div id="section-one">
+    <div class="wrap">
+      <h1>Learning to code is awesome!</h1>
+      <img src="images/DividerGold.png" alt="gold divider">
+      <nav>
+        <a href="#section-two">What is coding?</a> |
+        <a href="#section-three">Reasons to Learn code</a>
+      </nav>
     </div>
-    <div>
-      <h2>Reasons why learnig to code is Awesome!</h2>
-      <h3>Learning to code opens up so many doors, so it's definitely worth giving it a go! Here are my 3 top reasons
-        why learning to code is awesome!</h3>
-      <ol>
-        <li>Anyone can learn to code!<strong>Seriously</strong>, whether you're young or old or male or female, you can
-          do it! I did it, so I'm livivng proof!</li>
-        <li>Learning to code = <em>higher prices!</em> By learning a highly in-demand skill like coding, you can almost
-          immediately increase your prices.</li>
-        <li>You can work from anywhere! No joke, so long as you have a computer and an internet connection, you can
-          <strong><em>geek out</em></strong> on code anywhere you please!</li>
-      </ol>
-      <h3>You can't go wrong with tech skills!</h3>
-      <p>Nowdays just about everything is tech related, so why not get ahead of the curve and learn na awesome tech
-        skill? Learning to code is only the beginning to your amazing future!</p>
+  </div>
+
+  <div id="section-two">
+    <div class="wrap">
+      <h2>What is coding and how does it work?</h2>
+      <p>Writing code tell the computer what to do. for this 5 day challenge, we'll stick with basic web development
+        coding languages: HTML and CSS</p>
+      <a href="http://geekpack.co" target="_blank">Learn More</a>
+      <h3>HTML</h3>
+      <ul>
+        <li>Stands for HyperText Markup Language</li>
+        <li>Building block of the web</li>
+        <li>Provides the basic skeleton of all websites</li>
+        <li>It is all you can see, view and click on in your browser</li>
+      </ul>
+      <h3>CSS</h3>
+      <p>CSS stands for Cascading Style Sheets and is all about <em>STYLE! </em><span
+          style="color: #256edb; font-size: 24px;">For example, this sentence has an inline style; I've increased the
+          font size to 24px and changed the font color to blue!</span>Pretty cool, huh?</p>
+    </div>
+  </div>
+
+  <div id="section-three">
+    <div class="wrap">
+      <div>
+        <img id="img" src="images/GoldBalls.jpg" alt="gold balls">
+      </div>
+      <div id="text">
+        <h2>Reasons why learnig to code is Awesome!</h2>
+        <h3>Learning to code opens up so many doors, so it's definitely worth giving it a go! Here are my 3 top reasons
+          why learning to code is awesome!</h3>
+        <ol>
+          <li>Anyone can learn to code!<strong>Seriously</strong>, whether you're young or old or male or female, you
+            can
+            do it! I did it, so I'm livivng proof!</li>
+          <li>Learning to code = <em>higher prices!</em> By learning a highly in-demand skill like coding, you can
+            almost
+            immediately increase your prices.</li>
+          <li>You can work from anywhere! No joke, so long as you have a computer and an internet connection, you can
+            <strong><em>geek out</em></strong> on code anywhere you please!</li>
+        </ol>
+        <h3>You can't go wrong with tech skills!</h3>
+        <p>Nowdays just about everything is tech related, so why not get ahead of the curve and learn na awesome tech
+          skill? Learning to code is only the beginning to your amazing future!</p>
+      </div>
     </div>
   </div>
 
   <footer>
-    <a href="http://geekpack.co"><img src="images/GeekPack.png" alt="geekpack logo"></a>
+    <div class="logo footer">
+      <a href="http://geekpack.co"><img src="images/GeekPack.png" alt="geekpack logo"></a>
+    </div>
     <p>Copyright 2020 | All Rights Reserved</p>
+
   </footer>
 
 </body>
 
 </html>
-
-
-
-<h1>Michaela</h1>
-
-<h2>DeCamara</h2>
-
-
-<!-- p*4>lorem is the shortcut to create this with emmet abreviations  -->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique enim quam nostrum doloremque consectetur
-  ducimus dolorem, commodi porro ipsum omnis magnam quia, facere quae exercitationem fugiat itaque optio tempora.</p>
-<p>Mollitia possimus veritatis, ipsum, est excepturi aliquam harum officia quae necessitatibus rem assumenda praesentium
-  amet tempora? Obcaecati possimus voluptatibus, vel rem, corporis blanditiis, cumque recusandae qui facilis tenetur ea
-  aliquid?</p>
-<p>Dolore eos reprehenderit nemo illum corrupti optio, blanditiis officiis fugit reiciendis nisi! Molestias vitae
-  consequuntur, sunt ab ipsam dolor autem, commodi reprehenderit, aut dolorum aperiam velit. Esse quas eos officia.</p>
-<p>Dolorem nesciunt pariatur sit, est perspiciatis excepturi eius rem quisquam, explicabo error maxime, ad hic facilis!
-  Autem illo quibusdam debitis nesciunt? Voluptas, numquam magni architecto odio corrupti blanditiis recusandae minima?
-</p>
-<p>Temporibus cupiditate aspernatur quia recusandae nihil officia delectus quas, provident neque ratione tempora saepe a
-  unde! Explicabo maiores dolores sequi quisquam, ad illo vitae, delectus omnis et dolorum modi repellat?</p>
-
-
-<!-- li*6>p.item*3>lorem10 this will produce 6 <li> tags with 3 <p> tags and 10 random words from lorem ipsum -->
-
-<li>
-  <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi?</p>
-  <p class="item">Ratione sunt quasi autem consequatur temporibus cumque officiis, quia nam?</p>
-  <p class="item">Consequuntur, eligendi deserunt tenetur numquam inventore harum sapiente ea deleniti!</p>
-</li>
-<li>
-  <p class="item">Rem quis corporis praesentium voluptatibus itaque voluptas excepturi corrupti neque!</p>
-  <p class="item">Cum error iusto quam autem totam? Unde, soluta officia! Dolore!</p>
-  <p class="item">Voluptatem, iure. Sint iusto accusantium minus odio facilis necessitatibus ducimus?</p>
-</li>
-<li>
-  <p class="item">Qui modi, eum cum deleniti repellat culpa necessitatibus voluptate nisi.</p>
-  <p class="item">Modi nesciunt nihil sapiente facere aspernatur ducimus obcaecati unde doloribus.</p>
-  <p class="item">Reprehenderit minus quisquam hic dolore quod voluptatibus assumenda ipsa eum?</p>
-</li>
-<li>
-  <p class="item">Rerum adipisci explicabo labore necessitatibus qui a fugit quasi officia?</p>
-  <p class="item">Distinctio reiciendis voluptates obcaecati ab porro, est labore quia quam.</p>
-  <p class="item">Quidem, consequatur! Placeat quo cum voluptatem, animi est velit quas.</p>
-</li>
-<li>
-  <p class="item">Officia placeat autem quam nisi suscipit, labore tempore unde aliquid.</p>
-  <p class="item">Laborum iusto odio blanditiis quod ab modi, dolores id architecto!</p>
-  <p class="item">Molestias illo eligendi fuga modi illum, quos omnis! Placeat, corrupti.</p>
-</li>
-<li>
-  <p class="item">Deserunt repellat aliquid eveniet sint doloribus ex et harum fugit!</p>
-  <p class="item">Ut, magnam. Iusto praesentium at corrupti consectetur dolorum fugiat quas.</p>
-  <p class="item">Provident quod culpa eos vero asperiores voluptatibus facere quia ut.</p>
-</li>
-
-<a href="https://www.google.com/" target="_blank">Google</a>
-
-<a href="https://pixabay.com/" target="_blank">
-  <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_960_720.jpg" alt="dog">
-</a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uuumHb8yUvk" frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3062027568367!2d-74.04668908428802!3d40.689253446943205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sus!4v1591993348759!5m2!1sen!2sus"
-  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-  tabindex="0"></iframe>
